@@ -1,0 +1,38 @@
+
+* { 
+  box-sizing: border-box; 
+  position: relative; 
+}
+
+html, body { 
+  height: 100%; 
+}
+            
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: red;
+  left: 70px;
+  top: 200px;
+}
+
+.ball-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.cup {
+  width: 150px;
+  border-bottom: 200px solid green;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
